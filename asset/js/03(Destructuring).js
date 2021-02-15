@@ -72,7 +72,7 @@ function spreadSyntax() {
 
 }
 
-function restSyntax(...no) {
+function restSyntax() {
 
     //The Numbers to add 
     const x1 = 1;
