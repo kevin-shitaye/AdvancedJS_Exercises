@@ -46,12 +46,13 @@ function displaySymbolObject() {
     const student = { name: "Abebe", age: 21, year: "2dn year" }
 
     // 1. Create an id constant that store Symbol with id debugging string 
-    const id = Symbol("1234")
+    const id = Symbol("debugging")
 
 
     //2. Add the symbol property to the object [this will be considered as hidden property]
-    student['id'] = id
+    student[id] = id
     //3. Let the Id value be 1234
+    student['id'] = Symbol("1234")
     // Note : user [] 
 
 
